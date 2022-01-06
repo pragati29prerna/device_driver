@@ -1,0 +1,1 @@
+cmd_/home/pprerna/CDAC/Device_Driver/program1/Module.symvers := sed 's/ko$$/o/' /home/pprerna/CDAC/Device_Driver/program1/modules.order | scripts/mod/modpost -m -a   -o /home/pprerna/CDAC/Device_Driver/program1/Module.symvers -e -i Module.symvers   -T -
